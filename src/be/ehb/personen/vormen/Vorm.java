@@ -1,4 +1,6 @@
 package be.ehb.personen.vormen;
 
-public class Vorm {
+abstract public class Vorm {
+
+    abstract public double berekenOppervlakte();
 }
